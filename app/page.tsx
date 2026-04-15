@@ -4,6 +4,8 @@ import Stats from "@/components/sections/Stats";
 import Services from "@/components/sections/Services";
 import Projects from "@/components/sections/Projects";
 import Process from "@/components/sections/Process";
+import Testimonials from "@/components/sections/Testimonials";
+import Pricing from "@/components/sections/Pricing";
 
 export default function Home() {
   return (
@@ -14,10 +16,10 @@ export default function Home() {
       <Services />
       <Projects />
       <Process />
+      <Testimonials />
+      <Pricing />
       {/* 
         Remaining sections:
-        - Testimonials
-        - Pricing
         - FAQ
         - Blog
       */}
